@@ -1,7 +1,7 @@
 # ollama_chainlit
 Run locally Ollama models in a nice chainlit user interface.
 
-![]("demo.png")
+![](./demo.png)
 
 **Step 1 :** Make sure docker/docker-compose is installed on your machine
 
