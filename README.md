@@ -34,7 +34,7 @@ To specify the model used by the chatbot you can modify **app.py** script :
 model = Ollama(model=$model_name, base_url="http://ollama-container:11434")
 ```
 
-**Step 4:** Modify prompt engineering according to your needs. Modify this part in **app.py** :
+**Step 4 :** Modify prompt engineering according to your needs. Modify this part in **app.py** :
 
 ```python
     prompt = ChatPromptTemplate.from_messages(
