@@ -1,6 +1,8 @@
 # ollama_chainlit
 Run locally Ollama models in a nice chainlit user interface.
 
+![]("demo.png")
+
 **Step 1 :** Make sure docker/docker-compose is installed on your machine
 
 **Step 2 :** Build and start the chatbot using the following command :
@@ -32,7 +34,7 @@ To specify the model used by the chatbot you can modify **app.py** script :
 model = Ollama(model=$model_name, base_url="http://ollama-container:11434")
 ```
 
-**Step 4:** Modify prompt engineering in **app.py** according to your needs. Modify this part:
+**Step 4:** Modify prompt engineering according to your needs. Modify this part in **app.py** :
 
 ```python
     prompt = ChatPromptTemplate.from_messages(
